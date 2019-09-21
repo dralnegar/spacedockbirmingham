@@ -149,7 +149,7 @@
                         <div class="lcars-bracket top hollow"></div>
                         <div class="lcarsElementDiv">
                             <a href="https://www.facebook.com/spacedockbirmingham" target="blank">
-                                <img src="/img/spacedock_birmingham_logo.jpg" alt="Spacedock Birmingham" style="width:100%"/>        
+                                <img src="/img/spacedock_birmingham_logo.jpg" alt="Spacedock Birmingham Image" style="width:100%"/>        
                             </a>
                         </div>
                     
