@@ -1,0 +1,73 @@
+html, body { background: black }
+p, h1, h2, h3 
+{
+    margin-top: 1em;
+}
+/*
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+*/
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #FFFFFF;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.lcarsElementDiv 
+{   
+    border-left: .75rem solid #FC6;
+    border-right: .75rem solid #FC6;
+    padding:2%;
+
+}
+
+a:link, a:visited { color: white; }
+a:hover, a:active {  color: hotpink; cursor: pointer; }
+
+.centered
+{
+    text-align:center;
+}

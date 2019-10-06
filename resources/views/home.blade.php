@@ -1,23 +1,42 @@
-@extends('layouts.app')
+@extends('layouts.spacedock')
 
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Dashboard</div>
-
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    You are logged in!
-                </div>
-            </div>
+<!-- COLUMN LAYOUT -->
+<div class="lcars-column lcars-u-12">
+<div class="lcars-row">
+    <div class="lcars-u-3">
+        <div class="lcars-bracket top hollow"></div>
+        <div class="lcarsElementDiv">
+            <a href="https://www.facebook.com/spacedockbirmingham" target="blank">
+                <img src="/img/spacedock_birmingham_logo.jpg" alt="Spacedock Birmingham Image" style="width:100%"/>        
+            </a>
+        </div>
+    
+        <div class="lcars-bracket bottom hollow centered">
+            <a href="https://www.facebook.com/spacedockbirmingham" target="blank">Spacedock Birmingham</a>
         </div>
     </div>
-</div>
+
+    <div class="lcars-u-3">
+        <div class="lcars-bracket top hollow"></div>
+        <div class="lcarsElementDiv">
+            <a href="https://www.facebook.com/svenof9" target="blank">
+                <img src="/img/sven_in_uniform.jpg" alt="Sven in Uniform" style="width:100%"/>        
+            </a>
+        </div>
+    
+        <div class="lcars-bracket bottom hollow centered"><a href="https://www.facebook.com/svenof9" target="blank">Sven In Uniform</a></div>
+    </div>
+    
+    <div class="lcars-u-3">
+        <div class="lcars-bracket top hollow"></div>
+        <div class="lcarsElementDiv">
+            <a href="https://www.facebook.com/david.zabi" target="blank">    
+                <img src="/img/david_in_uniform.jpg" alt="David in Uniform" style="width:100%"/>        
+            </a>
+        </div>
+        
+        <div class="lcars-bracket bottom hollow centered"><a href="https://www.facebook.com/david.zabi" target="blank">David In Uniform</a></div>
+    </div>
+</div>  <!-- .lcars-row -->
 @endsection
