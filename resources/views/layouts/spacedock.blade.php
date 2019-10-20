@@ -14,9 +14,7 @@
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-    
-
+   
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('lcars/css/lcars.min.css') }}" rel="stylesheet">
@@ -31,7 +29,7 @@
         <div id="header" class="lcars-row header">
 
         <!-- ELBOW -->
-        <div class="lcars-elbow left-bottom lcars-tan-bg"></div>
+        <div class="lcars-elbow left-bottom header-background" style="padding-bottom:10px"></div>
 
         <!-- BAR WITH TITLE -->
         <div class="lcars-bar horizontal">
@@ -71,7 +69,61 @@
         <!-- SIDE MENU ================================================= -->
         <div id="left-menu" class="lcars-column start-space lcars-u-1">
         <!-- FILLER -->
-        <div class="lcars-bar lcars-u-1"><a href="home">Home</a></div>
+        <div class="lcars-u-1">
+    
+            <div class="lcars-bar menu-item menu-logo lcars-text" style="width:2rem">
+            <a href="home" target="_blank">
+             <img src="/img/spacedock_birmingham_logo.png" style="width:100%">        
+             <br/>
+             Home
+            </a>
+                
+
+            </div>
+
+            <div class="lcars-bar menu-item lcars-text">
+                <a href="home" target="blank">
+                    SPACKDOCK<br/>
+                    BIRMINGHAM<br/>
+                    ON FACEBOOK
+                </a>
+            </div>
+            <div class="lcars-bar menu-item lcars-text">
+                <a href="home" target="_blank">
+                    SPACEDOCK<br/>
+                    BIRMINGHAM<br/>
+                    MESSAGE BOARD
+                </a>
+            </div>
+            <div class="lcars-bar menu-item lcars-text">
+                <a href="home" target="_blank">
+                 'ZINE PDFS'   
+                </a>
+            </div>
+            <div class="lcars-bar menu-item lcars-text">
+                <a href="home" target="_blank">
+                 PROMENADE  
+                </a>
+            </div>
+            <div class="lcars-bar menu-item lcars-text">
+                <a href="home" target="_blank">
+                EVENTS  
+                </a>
+            </div>
+            <div class="lcars-bar menu-item lcars-text">
+                <a href="home" target="_blank">
+                JOIN<br/>
+                STARFLEET<br/>
+                INTERNATIONAL
+                </a>
+            </div>
+            <div class="lcars-bar menu-item lcars-text">
+                <a href="home" target="_blank">
+                OTHER<br/>
+                LINKS
+                </a>
+            </div>
+        </div>
         </div> <!-- .left-menu -->
 
         <div id="footer" class="lcars-row ">

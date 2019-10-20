@@ -1,7 +1,16 @@
+@font-face {
+    font-family: 'LCARS';
+    src: url('/fonts/LCARS.woff2') format('woff2'),
+        url('fonts/LCARS.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html, body { background: black }
 p, h1, h2, h3 
 {
     margin-top: 1em;
+    font-family: 'LCARS';
 }
 /*
 html, body {
@@ -13,6 +22,46 @@ html, body {
     margin: 0;
 }
 */
+
+.lcars-text
+{
+    font-family: 'LCARS';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.6rem;
+    text-align:center;
+    line-height:1.6rem;
+    vertical-align:center;
+}
+
+.menu-item
+{
+    margin-bottom: .25rem;
+    height: 5.5rem !important;
+    cursor: pointer;
+    padding-top: .25rem;
+}
+
+.header-background
+{
+    background-color: #0098A4;
+    
+}
+
+.menu-logo
+{
+
+
+    background-color: #0098A4;
+    
+    height: 5.25rem;
+    margin-top: 0rem;
+}
+
+
+
+a:link, a:visited { color: black; }
+a:hover, a:active {  color:red; cursor: pointer; }
 
 .full-height {
     height: 100vh;
@@ -43,7 +92,7 @@ html, body {
 }
 
 .links > a {
-    color: #FFFFFF;
+    color:black;
     padding: 0 25px;
     font-size: 13px;
     font-weight: 600;
@@ -64,10 +113,10 @@ html, body {
 
 }
 
-a:link, a:visited { color: white; }
-a:hover, a:active {  color: hotpink; cursor: pointer; }
+
 
 .centered
 {
     text-align:center;
 }
+
