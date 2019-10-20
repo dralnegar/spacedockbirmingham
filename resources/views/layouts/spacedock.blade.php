@@ -34,8 +34,10 @@
         <!-- BAR WITH TITLE -->
         <div class="lcars-bar horizontal">
             <div class="lcars-title right" style="color:white;size:12px">
-            
+                
+
                 <!-- Authentication Links -->
+                <!--
                 @guest
                     <a href="{{ route('login') }}">{{ __('Login') }}</a>
                     @if (Route::has('register'))
@@ -56,7 +58,8 @@
                         @csrf
                     </form>
                 @endguest
-            </ul>
+                !-->
+            
             
                 
             </div> <!-- .lcars-title right --> 
@@ -68,62 +71,47 @@
 
         <!-- SIDE MENU ================================================= -->
         <div id="left-menu" class="lcars-column start-space lcars-u-1">
-        <!-- FILLER -->
-        <div class="lcars-u-1">
-    
-            <div class="lcars-bar menu-item menu-logo lcars-text" style="width:2rem">
-            <a href="home" target="_blank">
-             <img src="/img/spacedock_birmingham_logo.png" style="width:100%">        
-             <br/>
-             Home
-            </a>
+            <!-- FILLER -->
+            <div class="lcars-u-1">
+        
+                <div class="lcars-bar menu-item menu-logo lcars-text"  onclick="window.location ='/home'">&nbsp;</div>
                 
-
-            </div>
-
-            <div class="lcars-bar menu-item lcars-text">
-                <a href="home" target="blank">
-                    SPACKDOCK<br/>
-                    BIRMINGHAM<br/>
-                    ON FACEBOOK
-                </a>
-            </div>
-            <div class="lcars-bar menu-item lcars-text">
-                <a href="home" target="_blank">
-                    SPACEDOCK<br/>
-                    BIRMINGHAM<br/>
-                    MESSAGE BOARD
-                </a>
-            </div>
-            <div class="lcars-bar menu-item lcars-text">
-                <a href="home" target="_blank">
-                 'ZINE PDFS'   
-                </a>
-            </div>
-            <div class="lcars-bar menu-item lcars-text">
-                <a href="home" target="_blank">
-                 PROMENADE  
-                </a>
-            </div>
-            <div class="lcars-bar menu-item lcars-text">
-                <a href="home" target="_blank">
+                <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/facebook'">
+                SPACKDOCK<br/>
+                BIRMINGHAM<br/>
+                ON FACEBOOK
+                </div>
+                   
+                <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/messageBoard'">
+                SPACEDOCK<br/>
+                BIRMINGHAM<br/>
+                MESSAGE BOARD
+                </div>
+                
+                <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/zines'">
+                'ZINE PDFS'   
+                </div>
+               
+                <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/promenade'">
+                PROMENADE  
+                </div>
+             
+                <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/events'">
                 EVENTS  
-                </a>
-            </div>
-            <div class="lcars-bar menu-item lcars-text">
-                <a href="home" target="_blank">
+                </div>
+                
+                <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/starfleet'">
                 JOIN<br/>
                 STARFLEET<br/>
                 INTERNATIONAL
-                </a>
-            </div>
-            <div class="lcars-bar menu-item lcars-text">
-                <a href="home" target="_blank">
+                </div>
+              
+                <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/other'">
                 OTHER<br/>
                 LINKS
-                </a>
+                </div>
+                
             </div>
-        </div>
         </div> <!-- .left-menu -->
 
         <div id="footer" class="lcars-row ">

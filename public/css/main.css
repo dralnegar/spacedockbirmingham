@@ -51,11 +51,25 @@ html, body {
 .menu-logo
 {
 
-
+    background-image: url('/img/spacedock_birmingham_logo.png');
     background-color: #0098A4;
-    
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 5.25rem;
     margin-top: 0rem;
+}
+
+.facebook-logo
+{
+    
+    background-image: url('/img/spacedock_birmingham_logo.jpg'); 
+    width:100%;
+    min-height:200px;
+    max-height:400px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 

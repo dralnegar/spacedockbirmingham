@@ -17,7 +17,13 @@ Route::get('/admin', 'AdminController@index');
 
 Route::get('/', 'HomeController@index');
 Route::get('/home', 'HomeController@index');
-
+Route::get('/facebook', 'HomeController@facebook');
+Route::get('/messageBoard', 'HomeController@messageBoard');
+Route::get('/zines', 'HomeController@zines');
+Route::get('/promenade', 'HomeController@promenade');
+Route::get('/events', 'HomeController@events');
+Route::get('/starfleet', 'HomeController@starfleet');
+Route::get('/other', 'HomeController@other');
 
 /*
 Route::get('/', function () {
