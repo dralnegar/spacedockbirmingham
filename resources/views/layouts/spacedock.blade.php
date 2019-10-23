@@ -76,39 +76,36 @@
         
                 <div class="lcars-bar menu-item menu-logo lcars-text"  onclick="window.location ='/home'">&nbsp;</div>
                 
+                <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/starfleet'">
+                Join SFI
+                </div>
+                
                 <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/facebook'">
-                SPACKDOCK<br/>
-                BIRMINGHAM<br/>
-                ON FACEBOOK
+                Facebook
                 </div>
                    
                 <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/messageBoard'">
-                SPACEDOCK<br/>
-                BIRMINGHAM<br/>
-                MESSAGE BOARD
+                Message Board
                 </div>
                 
                 <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/zines'">
-                'ZINE PDFS'   
+                'Zine PDFs'   
                 </div>
                
                 <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/promenade'">
-                PROMENADE  
+                Promenade  
                 </div>
              
                 <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/events'">
-                EVENTS  
+                Events
                 </div>
                 
-                <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/starfleet'">
-                JOIN<br/>
-                STARFLEET<br/>
-                INTERNATIONAL
-                </div>
-              
                 <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/other'">
-                OTHER<br/>
-                LINKS
+                Other Links
+                </div>
+
+                <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/other'">
+                Members Only
                 </div>
                 
             </div>
