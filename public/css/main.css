@@ -37,9 +37,9 @@ html, body {
 .menu-item
 {
     margin-bottom: .25rem;
-    height: 5.5rem !important;
+    height: 4.0rem !important;
     cursor: pointer;
-    padding-top: .25rem;
+    padding-top: 1rem;
 }
 
 .header-background
@@ -50,14 +50,18 @@ html, body {
 
 .menu-logo
 {
-
     background-image: url('/img/spacedock_birmingham_logo.png');
     background-color: #0098A4;
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 5.25rem;
+    height: 6rem;
     margin-top: 0rem;
+    margin-bottom: .25rem
+}
+.menu-logo span 
+{
+    vertical-align: center;
 }
 
 .facebook-logo

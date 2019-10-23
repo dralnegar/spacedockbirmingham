@@ -24,6 +24,7 @@ Route::get('/promenade', 'HomeController@promenade');
 Route::get('/events', 'HomeController@events');
 Route::get('/starfleet', 'HomeController@starfleet');
 Route::get('/other', 'HomeController@other');
+Route::get('/members', 'HomeController@members');
 
 /*
 Route::get('/', function () {

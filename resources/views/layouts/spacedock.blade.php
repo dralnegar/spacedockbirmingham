@@ -74,38 +74,38 @@
             <!-- FILLER -->
             <div class="lcars-u-1">
         
-                <div class="lcars-bar menu-item menu-logo lcars-text"  onclick="window.location ='/home'">&nbsp;</div>
+                <div class="lcars-bar menu-logo lcars-text"  onclick="window.location ='/home'">&nbsp;</div>
                 
                 <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/starfleet'">
-                Join SFI
+                <span>Join SFI</span>
                 </div>
                 
                 <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/facebook'">
-                Facebook
+                <span>Facebook</span>
                 </div>
                    
                 <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/messageBoard'">
-                Message Board
+                <span>Message Board</span>
                 </div>
                 
                 <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/zines'">
-                'Zine PDFs'   
+                <span>'Zine PDFs'</span>
                 </div>
                
                 <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/promenade'">
-                Promenade  
+                <span>Promenade</span>
                 </div>
              
                 <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/events'">
-                Events
+                <span>Events</span>
                 </div>
                 
                 <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/other'">
-                Other Links
+                <span>Other Links</span>
                 </div>
 
-                <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/other'">
-                Members Only
+                <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/members'">
+                <span>Members Only</span>
                 </div>
                 
             </div>

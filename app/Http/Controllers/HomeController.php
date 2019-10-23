@@ -61,6 +61,10 @@ class HomeController extends Controller
         return view('other');
     }
 
+    public function members()
+    {
+        return view('members');
+    }
 
     
 }
