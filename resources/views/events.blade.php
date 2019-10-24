@@ -8,6 +8,7 @@
         <div class="lcarsElementDiv lcars-text">
         EVENTS       
         </div>
+        <div class="clear"></div>
         <div class="lcars-bracket bottom hollow"></div>
     </div>
 </div>  <!-- .lcars-row -->

@@ -76,8 +76,8 @@
         
                 <div class="lcars-bar menu-logo lcars-text"  onclick="window.location ='/home'">&nbsp;</div>
                 
-                <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/starfleet'">
-                <span>Join SFI</span>
+                <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/home'">
+                <span>Home</span>
                 </div>
                 
                 <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/facebook'">

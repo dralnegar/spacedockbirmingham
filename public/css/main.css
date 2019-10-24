@@ -7,11 +7,27 @@
 }
 
 html, body { background: black }
-p, h1, h2, h3 
+p, h1, h2, h3, ul, ol 
 {
     margin-top: 1em;
     font-family: 'LCARS';
 }
+
+p 
+{
+    clear:both;
+}
+
+p, ol, li 
+{
+    font-size: 1.75rem;
+    line-height: 1.90rem;
+    letter-spacing: 0.03rem;
+    color:#FC6;
+
+}
+
+
 /*
 html, body {
     background-color: #fff;
@@ -78,6 +94,7 @@ html, body {
 
 
 
+
 a:link, a:visited { color: black; }
 a:hover, a:active {  color:red; cursor: pointer; }
 
@@ -109,6 +126,11 @@ a:hover, a:active {  color:red; cursor: pointer; }
     font-size: 84px;
 }
 
+a, a:link, a:active, a:visited, a:hover
+{
+    color:  #FC6;
+}
+
 .links > a {
     color:black;
     padding: 0 25px;
@@ -131,6 +153,20 @@ a:hover, a:active {  color:red; cursor: pointer; }
 
 }
 
+.homeLogo
+{
+    width:20%;float:left;
+}
+
+.homeLogoLabel
+{
+    width:70%;float:left;padding-top:1rem;
+}
+
+.homeLogoText
+{
+    color:#0098A4;letter-spacing: 0.26rem;
+}
 
 
 .centered
