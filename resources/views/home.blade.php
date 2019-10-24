@@ -7,25 +7,7 @@
         <div class="lcars-bracket top hollow"></div>
         <div class="lcarsElementDiv">
             <div style="float:left;clear:both;width:100%;;margin-bottom:1rem;">
-            
-                <img src="/img/front_page_banner.png" 
-                        style="width:100%;margin-right:auto;margin-right:auto;"
-                        onclick="window.open('https://www.facebook.com/spacedockbirmingham');"/>
-                 
-                <!--
-                <div style="float:left;width:10%;">&nbsp;</div>
-                <div style="float:left:width:75%;">
-                    
-                    <div class="homeLogo">    
-                        <img src="/img/spacedock_birmingham_logo.jpg" 
-                        style="width:100%;margin-right:auto;margin-right:auto;"
-                        onclick="window.open('https://www.facebook.com/spacedockbirmingham');"/>
-                    </div>
-                    <div class="homeLogoLabel lcars-text">
-                        <h3 class="homeLogoText">Welcome to Spacedock Birmingham</h3>
-                    </div>
-                </div>
-                -->
+                <img src="/img/front_page_banner.png" style="width:100%;margin-right:auto;margin-right:auto;"/>
             </div>
 
             <p>
