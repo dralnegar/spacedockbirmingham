@@ -80,6 +80,10 @@
                 <span>Home</span>
                 </div>
                 
+                <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/starfleet'">
+                <span>Join SFI</span>
+                </div>
+                
                 <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/facebook'">
                 <span>Facebook</span>
                 </div>
@@ -122,7 +126,7 @@
     
     
 
-        <main id="container" style="min-height:50rem">
+        <main id="container" style="min-height:54rem">
             
 
             @yield('content')
