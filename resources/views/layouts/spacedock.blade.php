@@ -17,7 +17,7 @@
    
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('lcars/css/lcars.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/lcars.css') }}" rel="stylesheet">
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
     
 </head>
@@ -122,8 +122,11 @@
     
     
 
-        <main id="container">
+        <main id="container" style="min-height:50rem">
+            
+
             @yield('content')
+     
         </main> <!-- #content -->
     </div> <!-- .lcars--app-container -->
 </body>
