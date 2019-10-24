@@ -7,6 +7,9 @@
         <div class="lcars-bracket top hollow"></div>
         <div class="lcarsElementDiv lcars-text">
         MESSAGE BOARDS       
+        <p>
+        Coming Soon!
+        </p>
         </div>
         <div class="lcars-bracket bottom hollow"></div>
     </div>
