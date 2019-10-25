@@ -166,14 +166,10 @@
                 <div style="float:left;width:32%;margin-right:1%;">
                     <div class="lcars-bracket top hollow" style="border-color:#0098A4;"></div>
                     <div class="lcarsElementDiv" style="border-color:#0098A4;">
-                        <a href="https://www.facebook.com/svenof9" target="blank">
-                            <img src="/img/sven_in_uniform.jpg" alt="Sven in Uniform" style="width:100%"/>        
-                        </a>
+                        <img src="/img/sven_in_uniform.jpg" alt="Sven in Uniform" style="width:100%"/>        
                         <p>
                         CO: Captain Sven Harvey<br/>
                         email : <a href="mailto:co@spacedock.space">co@spacedock.space</a>
-                        <br/>
-                        facebook : <a href="https://www.facebook.com/svenof9" target="blank">svenof9</a>
                         </p>
 
                     </div>
@@ -183,17 +179,11 @@
                 <div style="float:left;width:32%;margin-right:1%;">
                     <div class="lcars-bracket top hollow"></div>
                     <div class="lcarsElementDiv">
-                        <a href="https://www.facebook.com/david.zabi" target="blank">    
-                            <img src="/img/david_in_uniform.jpg" alt="David in Uniform" style="width:100%"/>        
-                        </a>
-
+                        <img src="/img/david_in_uniform.jpg" alt="David in Uniform" style="width:100%"/>        
                         <p>
                         XO: Captain David Zabiela<br/>
                         email : <a href="mailto:xo@spacedock.space">xo@spacedock.space</a>
-                        <br/>
-                        facebook : <a href="https://www.facebook.com/david.zabi" target="blank">david.zabi</a>
                         </p>
-
                     </div>
                     <div class="lcars-bracket bottom hollow centered"><a href="" target="blank"></a></div>
                 </div>
@@ -201,15 +191,10 @@
                 <div style="float:left;width:33%;">
                     <div class="lcars-bracket top hollow" style="border-color:#0098A4;"></div>
                     <div class="lcarsElementDiv" style="border-color:#0098A4;">
-                        <a href="https://www.facebook.com/jim.godwin.52" target="blank">    
-                            <img src="/img/jim_jodwin_in_uniform.png" alt="Jim in Uniform" style="width:100%"/>        
-                        </a>
-
+                        <img src="/img/jim_jodwin_in_uniform.png" alt="Jim in Uniform" style="width:100%"/>        
                         <p>
                         2O: Commander Jim Godwin<br/>
                         email : <a href="mailto:2o@spacedock.space">2o@spacedock.space</a>
-                        <br/>
-                        facebook : <a href="https://www.facebook.com/jim.godwin.52" target="blank">jim.godwin.52</a>
                         </p>
                     </div>
                     <div class="lcars-bracket bottom hollow centered" style="border-color:#0098A4;"></div>

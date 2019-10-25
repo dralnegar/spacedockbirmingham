@@ -10,7 +10,7 @@
             <div style="float:left;width:49%;margin-right:1%;">
                 <div class="lcars-bracket top hollow"></div>
                 <div class="lcarsElementDiv">
-                    <a href="https://www.facebook.com/spacedockbirmingham" target="blank">
+                    <a href="https://www.facebook.com/groups/spacedockbirmingham" target="blank">
                         <img src="/img/spacedock_birmingham_logo.jpg" 
                         alt="Spacedock Birmingham Arrivals Lounge and Social Club Facebook Group" style="width:100%"/>        
                     </a>
