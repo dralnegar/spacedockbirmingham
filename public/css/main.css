@@ -56,6 +56,15 @@ html, body {
     height: 4.0rem !important;
     cursor: pointer;
     padding-top: 1rem;
+    letter-spacing: .1rem;
+}
+
+.menu-active
+{
+    background-color: #8A1538 !important;
+    color: #C8C8C8
+   
+    
 }
 
 .header-background
@@ -78,6 +87,7 @@ html, body {
 .menu-logo span 
 {
     vertical-align: center;
+    
 }
 
 .facebook-logo

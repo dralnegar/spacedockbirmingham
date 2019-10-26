@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
+    private $pageDetails;
     /**
      * Create a new controller instance.
      *
@@ -13,7 +14,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-    
+        $this->pageDetails['title'] = 'Spacedock Birmingham';
     }
 
     /**
@@ -23,47 +24,57 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $this->pageDetails['currentPage'] = 'home';
+        return view('home', $this->pageDetails);
     }
     
     public function facebook()
     {
-        return view('facebook');
+        $this->pageDetails['currentPage'] = 'facebook';
+        return view('facebook', $this->pageDetails);
     }
 
     public function messageBoard()
     {
-        return view('messageboard');
+        $this->pageDetails['currentPage'] = 'messageBoard';
+        return view('messageboard', $this->pageDetails);
     }
 
     public function zines()
     {
-        return view('zines');
+        $this->pageDetails['currentPage'] = 'zines';
+        return view('zines', $this->pageDetails);
     }
 
     public function promenade()
     {
-        return view('promenade');
+        $this->pageDetails['currentPage'] = 'promenade';
+        return view('promenade', $this->pageDetails);
     }
 
     public function events()
     {
-        return view('events');
+        $this->pageDetails['currentPage'] = 'events';
+        return view('events', $this->pageDetails);
     }
 
     public function starfleet()
     {
-        return view('starfleet');
+        
+        $this->pageDetails['currentPage'] = 'starfleet';
+        return view('starfleet', $this->pageDetails);
     }
 
     public function other()
     {
-        return view('other');
+        $this->pageDetails['currentPage'] = 'other';
+        return view('other', $this->pageDetails);
     }
 
     public function members()
     {
-        return view('members');
+        $this->pageDetails['currentPage'] = 'members';
+        return view('members', $this->pageDetails);
     }
 
     

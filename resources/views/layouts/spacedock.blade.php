@@ -7,7 +7,11 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    @if(isset($title))
+    <title>{{ $title }}</title>
+    @else
+    <title>{{ $configconfig('app.name', 'Laravel') }}</title>
+    @endif
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -76,39 +80,39 @@
         
                 <div class="lcars-bar menu-logo lcars-text"  onclick="window.location ='/home'">&nbsp;</div>
                 
-                <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/home'">
+                <div class="lcars-bar menu-item lcars-text<?php echo ($currentPage=='home'?' menu-active':''); ?>" onclick="window.location ='/home'">
                 <span>Home</span>
                 </div>
                 
-                <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/starfleet'">
+                <div class="lcars-bar menu-item lcars-text<?php echo ($currentPage=='starfleet'?' menu-active':''); ?>" onclick="window.location ='/starfleet'">
                 <span>Join SFI</span>
                 </div>
                 
-                <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/facebook'">
+                <div class="lcars-bar menu-item lcars-text<?php echo ($currentPage=='facebook'?' menu-active':''); ?>" onclick="window.location ='/facebook'">
                 <span>Facebook</span>
                 </div>
                    
-                <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/messageBoard'">
+                <div class="lcars-bar menu-item lcars-text<?php echo ($currentPage=='messageBoard'?' menu-active':''); ?>" onclick="window.location ='/messageBoard'">
                 <span>Message Board</span>
                 </div>
                 
-                <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/zines'">
+                <div class="lcars-bar menu-item lcars-text<?php echo ($currentPage=='zines'?' menu-active':''); ?>" onclick="window.location ='/zines'">
                 <span>'Zine PDFs'</span>
                 </div>
                
-                <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/promenade'">
+                <div class="lcars-bar menu-item lcars-text<?php echo ($currentPage=='promenade'?' menu-active':''); ?>" onclick="window.location ='/promenade'">
                 <span>Promenade</span>
                 </div>
              
-                <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/events'">
+                <div class="lcars-bar menu-item lcars-text<?php echo ($currentPage=='events'?' menu-active':''); ?>" onclick="window.location ='/events'">
                 <span>Events</span>
                 </div>
                 
-                <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/other'">
+                <div class="lcars-bar menu-item lcars-text<?php echo ($currentPage=='other'?' menu-active':''); ?>" onclick="window.location ='/other'">
                 <span>Other Links</span>
                 </div>
 
-                <div class="lcars-bar menu-item lcars-text" onclick="window.location ='/members'">
+                <div class="lcars-bar menu-item lcars-text<?php echo ($currentPage=='members'?' menu-active':''); ?>" onclick="window.location ='/members'">
                 <span>Members Only</span>
                 </div>
                 
